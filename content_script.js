@@ -161,18 +161,18 @@ $(function() {
     $('#mobilePhone').val(info.user.mobilePhone);
     $('#name2622').val(info.user.email);
     $('input[name="agree"]').attr("checked", true);
-	$('input[id="memberSystemCheckBox"]').attr("checked", true);
-	$('input[id="memberSystemRadio1"]').attr("disabled", false);
-	$('input[id="memberSystemRadio2"]').attr("disabled", false);
-	$('input[id="msNumber"]').attr("disabled", false);
-	$('input[id="msNumber"]').val(info.user.user_id);
-	$('input[id="memberShipCheckBox"]').attr("disabled", false);
-	$('input[id="memberSystemRadio1"]').attr("checked", true);
-	$('input[id="memberShipCheckBox"]').attr("checked", true);
-	$('input[id="msNumber"]').attr("readonly", true);
+    $('input[id="memberSystemCheckBox"]').attr("checked", true);
+    $('input[id="memberSystemRadio1"]').attr("disabled", false);
+    $('input[id="memberSystemRadio2"]').attr("disabled", false);
+    $('input[id="msNumber"]').attr("disabled", false);
+    $('input[id="msNumber"]').val(info.user.user_id);
+    $('input[id="memberShipCheckBox"]').attr("disabled", false);
+    $('input[id="memberSystemRadio1"]').attr("checked", true);
+    $('input[id="memberShipCheckBox"]').attr("checked", true);
+    $('input[id="msNumber"]').attr("readonly", true);
 
     $('input#isSubmit').trigger('click');
-	$('input#btn-custom2').trigger('click');
+    $('input#btn-custom2').trigger('click');
   }
 
   function step_4() {
